@@ -1,0 +1,23 @@
+*{margin:0;padding:0;list-style:none;}
+#main {width:500px;margin:0px auto;font-family:文泉驿微米黑}
+.bar {background:gray;color:white;}
+.title {display:inline-block;width:250px;}
+.send_user {
+    display:inline-block;
+    width:120px;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0){
+    .send_user {width:90px;}
+}
+.content {border-bottom:1px solid gray;margin:10px 0;cursor:pointer;}
+.red {color:red;}
+.gray {color:gray;}
+
+/* 遮罩层 */
+.showbox{width:0px;height:0px;display:none;position:absolute;right:0;top:0;z-index:100;border:1px #8FA4F5 solid;padding:1px;background:#fff;}
+.showbox h2{height:25px;font-size:14px;background-color:#3366cc;position:relative;padding-left:10px;line-height:25px;color:#fff;}
+.showbox h2 a{position:absolute;right:5px;top:0;font-size:12px;color:#fff;}
+.showbox .mainlist{padding:10px;}
+.showbox .mainlist p{text-indent:2em;color:#333;padding-top:5px;}
+.showbox .mainlist #msg_content {padding-left:80px;}
+#zhezhao{background-color:#666;position:absolute;z-index:99;left:0;top:0;display:none;width:100%;height:100%;opacity:0.5;filter: alpha(opacity=50);-moz-opacity: 0.5;}
