@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>nodejs  + PHP 短消息</title>
+        <link rel="stylesheet" type="text/css" href="./style.css">
+        <script type="text/javascript" src="./socket.io.js"></script>  
+        <script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
+    </head>
+	<body>
+        <div class="showbox" style='display:none;'>
+            <h2><span id="msg_title"></span><a class="close" href="javascript:">关闭</a></h2>
+            <div class="mainlist">
+                <p>发件人：<span id="msg_sendUser"></span></p>
+                <p>收件人：<span id="msg_receiveUser"></span></p>
+                <p>时　间：<span id="msg_time"></span></p>
+                <p>内　容：<br/>
+                    <span id="msg_content"></span>
+                </p>
+            </div>
+        </div>	
+        <div id="zhezhao"></div>
+        <div id="container">Loading ...</div>
+    </body>
+    <script type="text/javascript" src="common.js"></script>
+</html>
